@@ -10,6 +10,6 @@ app.include_router(project.router)
 app.include_router(material.router)
 app.include_router(labour.router)
 
-@app.get("/")
+@app.get("/") 
 def root():
     return {"message": "Site Buddy API running"}
